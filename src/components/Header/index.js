@@ -4,7 +4,7 @@ import { signOutUserStart } from './../../redux/User/user.actions';
 import './styles.scss';
 import { Link } from 'react-router-dom';
 
-import Logo from './../../assets/logo.png';
+// import Logo from './../../assets/logo.png';
 
 const mapState = ({ user }) => ({
   currentUser: user.currentUser
@@ -23,7 +23,8 @@ const Header = props => {
       <div className="wrap">
         <div className="logo">
           <Link to="/">
-            <img src={Logo} alt="SimpleTut LOGO" />
+            // <img src={Logo} alt="SimpleTut LOGO" />
+            Logo
           </Link>
         </div>
 
